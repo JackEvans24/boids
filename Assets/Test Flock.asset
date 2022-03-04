@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0e9435a1b142b8498ce6641ba76ab09, type: 3}
+  m_Name: Test Flock
+  m_EditorClassIdentifier: 
+  boidPrefab: {fileID: 7368803726753532771, guid: 765bb3f09913ac342bc947d8207065b3, type: 3}
+  boidCount: 100
+  instantiateCenter: {x: 0, y: 0, z: 0}
+  instantiateLimits: {x: 5, y: 5, z: 5}
+  speedLimits: {x: 10, y: 12}
+  maxNeighbourDistance: 15
+  maxAvoidanceDistance: 1
+  rotationSpeed: 3
+  hasTarget: 0
+  target: {x: 0, y: 0, z: 0}
+  sphereCastRadius: 0.25
+  collisionAvoidDistance: 20
+  avoidCollisionWeight: 100
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 64
